@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.95,
+  "auc_score": 0.9949118046132971,
+  "training_samples": 800,
+  "test_samples": 200,
+  "features": [
+    "content_length",
+    "hashtags_count",
+    "mentions_count",
+    "urls_count",
+    "emojis_count",
+    "engagement_rate",
+    "posting_hour",
+    "day_of_week"
+  ],
+  "feature_importance": [
+    {
+      "feature": "hashtags_count",
+      "importance": 0.3761449282643129
+    },
+    {
+      "feature": "emojis_count",
+      "importance": 0.2137086789653051
+    },
+    {
+      "feature": "mentions_count",
+      "importance": 0.15333756531141315
+    },
+    {
+      "feature": "posting_hour",
+      "importance": 0.10107732481249605
+    },
+    {
+      "feature": "engagement_rate",
+      "importance": 0.0678175770342833
+    },
+    {
+      "feature": "content_length",
+      "importance": 0.047399839405689474
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.02208171845660233
+    },
+    {
+      "feature": "urls_count",
+      "importance": 0.018432367749897812
+    }
+  ]
+}
